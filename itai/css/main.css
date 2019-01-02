@@ -1,0 +1,148 @@
+html, body, div, p, h1, span, section {
+    margin: 0;
+    padding: 0;
+    font-family: 方正兰亭超细黑简体, Arial, "Microsoft YaHei", 黑体, 宋体, sans-serif;
+}
+/*body{*/
+    /*font-family: "华文细黑";*/
+    /*background:url("../src/bg.jpg") no-repeat;*/
+    /*background-size: 100%;*/
+/*}*/
+html, body, section {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    background: -webkit-linear-gradient(top, rgb(102, 143, 250), rgb(255, 255,255));
+    /*background: url("../src/bg3.jpg");*/
+    /*background-size: contain    ;*/
+
+    overflow: hidden;
+}
+
+.title {
+    text-align: center;
+    color: #000;
+}
+
+.bottom-barrier {
+    height: 200px;
+    /*width: !*200%*!;*/
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.barrier {
+    width: 80px;
+}
+
+.barrier-high {
+    background-color: #ADFF2F;
+    background: -webkit-linear-gradient(top, rgb(124,252,0), rgb(49,194,124));
+    height: 100%;
+    color: #fff;
+    line-height: 200px;
+    text-align: center;
+    -webkit-animation: a_text 2s linear 0s infinite normal;
+}
+
+.barrier-low {
+    height: 1px;
+}
+h2{
+    color: #000;
+}
+.notes {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 80px;
+    bottom: 200px;
+    background-color:transparent;
+    background-image: url(../src/taitai.gif);
+    background-size: cover;
+}
+
+.bqb {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-size: cover;
+    display: none;
+}
+
+.bqb1 {
+    left: 100%;
+    top: 100px;
+    background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488125181085&di=4c969729aa1e44e755edb66eaf1fbd41&imgtype=0&src=http%3A%2F%2Fp2.image.hiapk.com%2Fuploads%2Fallimg%2F160906%2F7730-160Z61Q522.jpg);
+    -webkit-animation: a_a 6s linear 0s infinite normal;
+}
+
+.bqb2 {
+    left: 100%;
+    top: 150px;
+    background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488125218691&di=ffe4ecef48c0fc39e3f64affe7de994f&imgtype=0&src=http%3A%2F%2Fimg1.gamersky.com%2Fimage2015%2F09%2F20150927lll_1%2Fgamersky_36small_72_20159271559BBC.jpg);
+    -webkit-animation: a_a 10s linear 10s infinite normal;
+}
+
+.bqb3 {
+    left: 100%;
+    top: 50px;
+    background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488125218690&di=a252e2ac805aba87f0fdb55703fcccae&imgtype=0&src=http%3A%2F%2Fwww.yoka.com%2Fdna%2Fpics%2Fmedia%2Fba15a7b3%2F26%2Fd3573b77bde3ed777b.jpg);
+    -webkit-animation: a_a 15s linear 15s infinite normal;
+}
+
+.bqb4 {
+    left: 100%;
+    top: 150px;
+    background-image: url(https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3331638148,3229112911&fm=23&gp=0.jpg);
+    -webkit-animation: a_a 10s linear 25s infinite normal;
+}
+
+.bqb5 {
+    left: 100%;
+    top: 100px;
+    background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488125742263&di=6a6909f1b71ef08875e1e17b297118d2&imgtype=0&src=http%3A%2F%2Fimg.tupianzj.com%2Fuploads%2Fallimg%2F160228%2F9-16022QP524-50.jpg);
+    -webkit-animation: a_a 5s linear 20s infinite normal;
+}
+
+.bqb6 {
+    left: 100%;
+    top: 50px;
+    background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488125764779&di=6978a87ecf4d029d3f8dae7ecb19fe28&imgtype=0&src=http%3A%2F%2Fwww.fuhaodq.com%2Fd%2Ffile%2Fqqbq%2F2015-12-29%2F6be5e3e2ef15520a127e2d823de952af.jpg);
+    -webkit-animation: a_a 20s linear 30s infinite normal;
+}
+
+.ttt {
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+}
+
+@keyframes a_a {
+    0% {
+        left: 100%;
+    }
+    100% {
+        left: -100%;
+    }
+}
+
+@keyframes a_text {
+    0% {
+        color: #fff;
+    }
+    100% {
+        color: #000;
+    }
+}
